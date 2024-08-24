@@ -14,12 +14,6 @@ To run this project, you need to have the following Python libraries installed:
 - warnings
 - Install the dependencies using pip:
 
-## bash
-Copy code
-pip install pandas numpy matplotlib seaborn scikit-learn scipy warnings
-## Data Description
-The dataset contains various features related to client information and their interaction with a bank's term deposit service. The target variable, subscribed, indicates whether a client subscribed to a term deposit.
-
 ## Features:
 ID: Unique identifier for each client (dropped during preprocessing)
 age: Age of the client
@@ -66,30 +60,15 @@ A heatmap of the correlation matrix is generated to explore relationships betwee
 Yeo-Johnson Transformation: Applied to reduce skewness and normalize the distribution of several continuous variables.
 Winsorization: Applied to the previous column to handle extreme values.
 Plots and Visualizations
-## The project includes the following visualizations:
 
+
+## The project includes the following visualizations:
 Histograms: Visualize the distribution of numerical features.
 Box Plots: Highlight outliers in numeric features.
 Correlation Heatmap: Displays correlations between numeric features.
 Distplots: Compare original and transformed distributions of skewed features.
 How to Run the Project
 Clone the Repository:
-
-## bash
-Copy code
-git clone (https://github.com/AshiqMohamedA/Predicting-Term-Deposit-Subscriptions-Using-Machine-Learning)
-cd term-deposit-prediction
-Ensure Dependencies are Installed:
-
-## bash
-Copy code
-pip install -r requirements.txt
-Run the Python Script:
-
-## bash
-Copy code
-python main.py
-The script will load the data, preprocess it, and perform exploratory data analysis.
 
 ## View the Visualizations:
 
