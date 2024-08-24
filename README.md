@@ -2,13 +2,6 @@
 ## Project Overview
 This project aims to analyze and predict whether a client will subscribe to a term deposit based on various features. The dataset consists of multiple client attributes such as age, job, marital status, education, and other financial indicators. The goal is to preprocess the data, handle outliers, encode categorical variables, and build a predictive model.
 
-## Directory Structure
-bash
-Copy code
-├── train.csv            # Training dataset
-├── test.csv             # Testing dataset
-├── main.py              # Main code script
-└── README.md            # Project documentation
 ## Requirements
 To run this project, you need to have the following Python libraries installed:
 
