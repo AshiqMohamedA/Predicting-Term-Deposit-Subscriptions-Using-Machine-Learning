@@ -77,7 +77,7 @@ Clone the Repository:
 
 ## bash
 Copy code
-git clone https://github.com/yourusername/term-deposit-prediction.git
+git clone https://github.com/AshiqMohamedA/term-deposit-prediction.git
 cd term-deposit-prediction
 Ensure Dependencies are Installed:
 
